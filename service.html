@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Services Section */
+.services {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.service {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.service h2 {
+    font-size: 1.8rem;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .services {
+        grid-template-columns: 1fr 1fr;
+        
+    }
+}
+
+@media (max-width: 480px) {
+    .services {
+        grid-template-columns: 1fr;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-logo">
+            <img src="img/transparent.png" alt="">
+        </div>
+        <div class="header-list">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="service.html">Service</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+
+    <header>
+        <h1>Our Services</h1>
+        <p>We offer a wide range of high-quality printing services designed to meet your needs. Explore our services below and let us help bring your ideas to life.</p>
+    </header>
+
+    <section class="services">
+        <div class="service">
+            <h2>Commercial Printing</h2>
+            <p>From brochures and flyers to catalogs and direct mail, we provide high-quality commercial printing that helps your business stand out. Our cutting-edge technology ensures crisp, vibrant prints that capture attention and leave a lasting impression.</p>
+        </div>
+
+        <div class="service">
+            <h2>Custom Stationery</h2>
+            <p>Personalize your brand with custom-designed stationery, including letterheads, envelopes, notepads, and business cards. Our custom designs elevate your brand's professional image and provide consistency across your communication materials.</p>
+        </div>
+
+        <div class="service">
+            <h2>Large Format Printing</h2>
+            <p>For banners, posters, signs, and more, our large-format printing service delivers high-impact visuals that demand attention. Perfect for trade shows, retail displays, and outdoor advertising.</p>
+        </div>
+
+        <div class="service">
+            <h2>Packaging Solutions</h2>
+            <p>We offer customized packaging options, including boxes, labels, and packaging materials. Our print solutions ensure that your products are presented in the most appealing and professional way possible.</p>
+        </div>
+
+        <div class="service">
+            <h2>Specialty Prints</h2>
+            <p>Want to make a statement? Our specialty printing options, such as embossing, foil stamping, and UV coating, add a luxurious touch to your prints. Ideal for high-end marketing materials and invitations.</p>
+        </div>
+
+        <div class="service">
+            <h2>Personalized Products</h2>
+            <p>From custom T-shirts and mugs to promotional items and gifts, we provide personalized printing services that are perfect for businesses, events, or gifts. Showcase your brand or create memorable gifts with ease.</p>
+        </div>
+
+        <div class="service">
+            <h2>Design Services</h2>
+            <p>Need design assistance? Our in-house design team is here to help. From complete branding projects to simple layout designs, we work closely with you to create visually appealing materials that effectively communicate your message.</p>
+        </div>
+
+        <div class="service">
+            <h2>Eco-Friendly Printing</h2>
+            <p>We care about the environment and offer eco-friendly printing options. Using sustainable materials and green printing processes, we ensure that you can print with confidence, knowing your project has a minimal environmental impact.</p>
+        </div>
+
+        <div class="service">
+            <h2>Fulfillment Services</h2>
+            <p>Our fulfillment services ensure that your printed materials are efficiently packaged, shipped, and delivered to the right location. Whether you’re sending marketing materials or organizing an event, we take care of the logistics for you.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 [Your Business Name]. All rights reserved.</p>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+</html>
